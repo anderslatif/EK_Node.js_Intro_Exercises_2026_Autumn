@@ -5,6 +5,8 @@
 
 const greetings = { message: "Hello, earthling! I bring peace." };
 
+console.log(greetings.message)
+
 // Log the message 
 
 // --------------------------------------
@@ -12,11 +14,20 @@ const greetings = { message: "Hello, earthling! I bring peace." };
 
 // Create an object that has your name and age. 
 
+const person = {
+    name: "Joshua",
+    age: 26
+};
+
+console.log(person)
+
 
 // --------------------------------------
 // Exercise 3 - Add a key-value pair
 
-const stackOverflow = {};
+const stackOverflow = {
+    isAllowed: true
+};
 
 // make a rule called isAllowed and let the value be true
 
@@ -25,6 +36,11 @@ const stackOverflow = {};
 
 const thisSong = { description: "The best song in the world." };
 
+delete thisSong.description;
+
+thisSong.about = "Just a tribute"
+
+console.log(thisSong);
 // remove the property "description" and add a property called "about" that should say "Just a tribute." 
 
 
