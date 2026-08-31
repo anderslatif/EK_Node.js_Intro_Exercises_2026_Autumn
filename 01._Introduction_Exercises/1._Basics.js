@@ -25,7 +25,7 @@ const increment = 1;
 // You cannot touch the first or the second line
 
 const incrementedYear = Number(year) + increment
-console.log(incrementedYear)
+console.log(incrementedYear) //OUTPUT => 2026
 
 
 // --------------------------------------
