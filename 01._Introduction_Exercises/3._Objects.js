@@ -19,7 +19,9 @@ const me = {name: "Olivia", age: 25};
 // --------------------------------------
 // Exercise 3 - Add a key-value pair
 
-const stackOverflow = {user3064538: "Actually no, that's not how you do it >:(" };
+const stackOverflow = {};
+
+stackOverflow.push({user3064538: "Is this how you wanted it?"})
 
 // make a rule called isAllowed and let the value be true
 stackOverflow.isAllowed = true;

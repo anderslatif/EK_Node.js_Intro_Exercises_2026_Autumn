@@ -7,9 +7,9 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
-const SUM1 = parseFloat(numberOne) + parseFloat(numberTwo);
+const sumOne = parseFloat(numberOne) + parseFloat(numberTwo);
 
-console.log(SUM1);
+console.log(sumOne);
 
 
 // --------------------------------------
@@ -18,9 +18,9 @@ console.log(SUM1);
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
 
-const SUM2 = parseFloat(anotherNumberOne) + parseFloat(anotherNumberTwo);
+const sumTwo = parseFloat(anotherNumberOne) + parseFloat(anotherNumberTwo);
 
-console.log(SUM2.toFixed(2));
+console.log(sumTwo.toFixed(2));
 
 
 // --------------------------------------
@@ -30,10 +30,10 @@ const one = 10;
 const two = 45;
 const three = 98;
 
-const SUM3 = (one + two + three)/3;
+const sumThree = (one + two + three) / 3;
 // Show in the console the avg. with 5 decimals
 
-console.log(SUM3.toFixed(5));
+console.log(sumThree.toFixed(5));
 
 
 

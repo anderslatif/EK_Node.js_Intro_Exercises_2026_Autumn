@@ -11,7 +11,9 @@ console.log(letters[1]);
 // --------------------------------------
 // Exercise 2 - Array Positioning
 
-const friends = ["Big fish", "Small fish", "My BF"];
+const friends = [];
+
+friends.push({friend: "Morty"}, {friend: "Guts"}, {friend: "Doofus"})
 
 // What a lonely array. Add at least 3 friend objects to it.  
 
@@ -50,7 +52,7 @@ console.log(diet);
 
 // You really like your daily diet from last exercise. Copy it to a new array called dinnerTray so you can give it to a friend.  
 
-const dinnerTray = diet
+const dinnerTray = diet.slice();
 console.log(dinnerTray);
 
 // --------------------------------------
