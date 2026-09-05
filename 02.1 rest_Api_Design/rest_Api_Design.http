@@ -1,0 +1,17 @@
+### Hent alle sprog
+GET http://localhost:3000/languages
+
+### Hent ét sprog
+GET http://localhost:3000/languages/:id
+
+### Opret et sprog
+POST http://localhost:3000/languages
+
+### Erstat et sprog
+PUT http://localhost:3000/languages/:id
+
+### Opdater et sprog
+PATCH http://localhost:3000/languages/:id
+
+### Slet et sprog
+DELETE http://localhost:3000/languages/:id

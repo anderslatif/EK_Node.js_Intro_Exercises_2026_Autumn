@@ -1,0 +1,60 @@
+<!--  index.html - visuel præsentation i tabel lavet af AI. -->
+
+<!doctype html>
+<html>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+
+  <body>
+    <h2>Languages API</h2>
+
+    <table style="width: 100%">
+      <tr>
+        <th>Handling</th>
+        <th>Method</th>
+        <th>Endpoint</th>
+      </tr>
+
+      <tr>
+        <td>Hent alle sprog</td>
+        <td>GET</td>
+        <td>/languages</td>
+      </tr>
+
+      <tr>
+        <td>Hent ét sprog</td>
+        <td>GET</td>
+        <td>/languages/:id</td>
+      </tr>
+
+      <tr>
+        <td>Opret et sprog</td>
+        <td>POST</td>
+        <td>/languages</td>
+      </tr>
+
+      <tr>
+        <td>Erstat et sprog</td>
+        <td>PUT</td>
+        <td>/languages/:id</td>
+      </tr>
+
+      <tr>
+        <td>Opdater et sprog</td>
+        <td>PATCH</td>
+        <td>/languages/:id</td>
+      </tr>
+
+      <tr>
+        <td>Slet et sprog</td>
+        <td>DELETE</td>
+        <td>/languages/:id</td>
+      </tr>
+    </table>
+  </body>
+</html>
